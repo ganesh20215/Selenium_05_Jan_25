@@ -8,8 +8,8 @@ public class PriorityExample {
     public void caseZ(){
         System.out.println("Case Z");
     }
-
-    @Test(priority = 70)
+	
+	@Test(priority = 70)
     public void caseM(){
         System.out.println("Case M");
     }
