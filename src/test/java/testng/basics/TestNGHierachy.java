@@ -49,6 +49,11 @@ public class TestNGHierachy {
         System.out.println("t5");
     }
 	
+	@Test
+    public void t6(){
+        System.out.println("t6");
+    }
+	
     @BeforeSuite
     public void bfs(){
         System.out.println("Before Suite");
