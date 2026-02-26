@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <parameter name="username" value="standard_user"/>-->
+<!--    <parameter name="password" value="secret_sauce"/>-->
+<!--    <parameter name="browserName" value="chrome"/>-->
+    <listeners>
+        <listener class-name="testng.failscript.Annotation"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="3" name="D:/repo1/clone/TestFolder/Demo/Selenium_05_Jan_25">
+        <classes>
+            <class name="testng.failscript.DemoOfFailScript"/>
+        </classes>
+    </test>
+</suite>
