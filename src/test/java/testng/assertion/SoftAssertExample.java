@@ -27,7 +27,6 @@ public class SoftAssertExample {
         sf.assertTrue(passwordTextBox.isDisplayed());
 
         sf.assertAll();
-
-        driver.close();
     }
 }
+
