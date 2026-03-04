@@ -29,5 +29,7 @@ public class HandleShadowElement {
 
         shadowRoot.findElement(By.cssSelector("button[class=' animation-finished']")).click();
 
+        driver.close();
     }
 }
+
